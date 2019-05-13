@@ -1,0 +1,17 @@
+div {
+    border: solid lightgrey 2px;
+}
+.field {
+    display: grid;
+    width: 19em;
+    height: 19em;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.cell {
+    width: 4em;
+    height: 4em;
+}
